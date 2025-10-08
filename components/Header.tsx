@@ -41,12 +41,12 @@ export default function Header() {
   };
 
   const zonesItems = [
-    { href: '/Nantes', label: 'Nantes' },
-    { href: '/Nantes/centre-ville', label: 'Centre-ville' },
-    { href: '/Nantes/ile-Nantes', label: 'Ile de Nantes' },
-    { href: '/Nantes/malakoff', label: 'Malakoff' },
-    { href: '/Nantes/dervallieres', label: 'Dervallières' },
-    { href: '/Nantes/beaulieu', label: 'Beaulieu' },  ];
+    { href: '/nantes', label: 'Nantes' },
+    { href: '/nantes/centre-ville', label: 'Centre-ville' },
+    { href: '/nantes/ile-Nantes', label: 'Ile de Nantes' },
+    { href: '/nantes/malakoff', label: 'Malakoff' },
+    { href: '/nantes/dervallieres', label: 'Dervallières' },
+    { href: '/nantes/beaulieu', label: 'Beaulieu' },  ];
 
 
   return (
@@ -127,7 +127,7 @@ export default function Header() {
                   Destinations fréquentes
                 </div>
                 <Link
-                  href="/Nantes-vers-paris"
+                  href="/nantes-vers-paris"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -137,7 +137,7 @@ export default function Header() {
                   Nantes → Paris
                 </Link>
                 <Link
-                  href="/Nantes-vers-lyon"
+                  href="/nantes-vers-lyon"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -147,7 +147,7 @@ export default function Header() {
                   Nantes → Lyon
                 </Link>
                 <Link
-                  href="/Nantes-vers-toulouse"
+                  href="/nantes-vers-toulouse"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);

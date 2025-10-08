@@ -43,7 +43,7 @@ export default function Header() {
   const zonesItems = [
     { href: '/nantes', label: 'Nantes' },
     { href: '/nantes/centre-ville', label: 'Centre-ville' },
-    { href: '/nantes/ile-Nantes', label: 'Ile de Nantes' },
+    { href: '/nantes/ile-nantes', label: 'Ile de Nantes' },
     { href: '/nantes/malakoff', label: 'Malakoff' },
     { href: '/nantes/dervallieres', label: 'Dervallières' },
     { href: '/nantes/beaulieu', label: 'Beaulieu' },  ];

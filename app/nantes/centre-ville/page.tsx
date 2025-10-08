@@ -50,5 +50,5 @@ const nantesCentrevilleData = {
 };
 
 export default function NantesCentrevillePage() {
-  return <LocalPage data={nantesCentrevilleData} />;
+  return <LocalPage {...nantesCentrevilleData} />;
 }

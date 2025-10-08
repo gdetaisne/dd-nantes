@@ -50,5 +50,5 @@ const nantesMalakoffData = {
 };
 
 export default function NantesMalakoffPage() {
-  return <LocalPage data={nantesMalakoffData} />;
+  return <LocalPage {...nantesMalakoffData} />;
 }

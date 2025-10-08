@@ -50,5 +50,5 @@ const nantesDervalliresData = {
 };
 
 export default function NantesDervalliresPage() {
-  return <LocalPage data={nantesDervalliresData} />;
+  return <LocalPage {...nantesDervalliresData} />;
 }

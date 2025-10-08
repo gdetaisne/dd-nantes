@@ -50,5 +50,5 @@ const nantesBeaulieuData = {
 };
 
 export default function NantesBeaulieuPage() {
-  return <LocalPage data={nantesBeaulieuData} />;
+  return <LocalPage {...nantesBeaulieuData} />;
 }

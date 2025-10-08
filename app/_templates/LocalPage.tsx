@@ -6,26 +6,30 @@ interface LocalPageProps {
   zone: string;
   zoneDisplay: string;
   description: string;
-  coverImage?: string; // Image du quartier (optionnelle)
-  stats: {
+  coverImage?: string;
+  accessInfo?: string;
+  pricing?: any;
+  destinations?: any[];
+  partners?: any[];
+  stats?: {
     dossiers: string;
     demenageurs: string;
     delai: string;
   };
-  pourquoiMoverz: string;
-  accesStationnement: string;
-  destinationsFrequentes: Array<{
+  pourquoiMoverz?: string;
+  accesStationnement?: string;
+  destinationsFrequentes?: Array<{
     href: string;
     title: string;
     description: string;
   }>;
-  partenaires: Array<{
+  partenaires?: Array<{
     name: string;
     rating: number;
     reviews: number;
     specialties: string[];
   }>;
-  faq: Array<{
+  faq?: Array<{
     question: string;
     answer: string;
   }>;

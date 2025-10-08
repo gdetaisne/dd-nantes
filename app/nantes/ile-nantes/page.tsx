@@ -50,5 +50,5 @@ const nantesIledeNantesData = {
 };
 
 export default function NantesIledeNantesPage() {
-  return <LocalPage data={nantesIledeNantesData} />;
+  return <LocalPage {...nantesIledeNantesData} />;
 }

@@ -476,7 +476,7 @@ Ce budget permet d'anticiper correctement et d'éviter les mauvaises surprises f
 
 Le prix d'un déménagement à Nantes dépend de nombreux facteurs que vous pouvez influencer : volume, période, formule choisie, négociation. En comprenant ces mécanismes de tarification, vous optimisez votre budget sans sacrifier la qualité ni la sécurité de vos biens.
 
-**Estimez votre déménagement à Nantes ?** Utilisez notre [calculateur de prix déménagement Nantes](/) : renseignez votre volume en 2 minutes et recevez 5 devis personnalisés instantanément. Prix transparents, comparaison détaillée, économie moyenne de 40%. Plus de 120 estimations réalisées en 2025.
+**Estimez votre déménagement à Nantes ?** Utilisez notre [calculateur de prix déménagement Nantes](/) : renseignez votre volume en 2 minutes et recevez 5 devis personnalisés instantanément. Prix transparents, comparaison détaillée, économie moyenne de 40%. Plus de 120 dossiers traités à Nantes en 2025.
 
 **Les clés pour maîtriser votre budget** :
 

@@ -42,7 +42,7 @@ export default function InventaireIAPage() {
               </h1>
               <p className="mt-2 text-lg text-white/80">
                 Comparez des devis vraiment comparables grâce à l'IA
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
               </p>
             </div>
             <div className="hidden sm:block">
@@ -53,7 +53,7 @@ export default function InventaireIAPage() {
                   <span className="text-lg font-semibold text-[#6bcfcf]">Moverz AI</span>
 =======
                   <span className="text-lg font-semibold text-[#6bcfcf]">Moverz IA</span>
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -86,7 +86,7 @@ export default function InventaireIAPage() {
                   <span className="ml-4 text-sm font-medium text-white/80">Inventaire IA</span>
 =======
                   <span className="ml-4 text-sm font-medium text-white/80">Devis précis</span>
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
                 </div>
               </li>
             </ol>
@@ -113,7 +113,7 @@ export default function InventaireIAPage() {
                   Obtenez une estimation personnalisée en quelques clics grâce à notre calculateur intelligent.
 =======
                   Estimation personnalisée en quelques clics grâce à notre calculateur intelligent.
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
                 </p>
               </div>
               
@@ -137,7 +137,7 @@ export default function InventaireIAPage() {
           {/* Bloc 2: Inventaire IA */}
 =======
           {/* Bloc 2: Devis précis (anciennement Inventaire IA) */}
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
           <div className="bg-white/5 backdrop-blur rounded-2xl shadow-marketing-xl overflow-hidden border border-white/10">
             <div className="p-8 text-center">
               <div className="mb-6">
@@ -155,7 +155,7 @@ export default function InventaireIAPage() {
                 </h2>
                 <p className="text-white/80 mb-6">
                   Volume IA identique pour tous → devis vraiment comparables
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
                 </p>
               </div>
               
@@ -175,7 +175,7 @@ export default function InventaireIAPage() {
                   <p>Version beta disponible</p>
 =======
                   <p>30 minutes • 3-5 devis garantis sous 7j</p>
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ export default function InventaireIAPage() {
               Une solution simple et efficace pour votre inventaire de déménagement
 =======
               Une solution simple et efficace pour comparer des devis vraiment comparables
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
             </p>
           </div>
           
@@ -216,7 +216,7 @@ export default function InventaireIAPage() {
               </h3>
               <p className="text-white/80">
                 3-5 photos par pièce depuis votre smartphone (30 minutes)
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
               </p>
             </div>
             
@@ -235,7 +235,7 @@ export default function InventaireIAPage() {
               </h3>
               <p className="text-white/80">
                 Notre IA calcule votre volume exact (ex: 28 m³)
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
               </p>
             </div>
             
@@ -257,7 +257,7 @@ export default function InventaireIAPage() {
               </h3>
               <p className="text-white/80">
                 Volume identique pour tous → devis vraiment comparables
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
               </p>
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function InventaireIAPage() {
         </div>
       </div>
 
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-[#2b7a78] to-[#6bcfcf] py-16">
         <div className="container max-w-7xl mx-auto px-4 md:px-6 text-center">
@@ -305,7 +305,7 @@ export default function InventaireIAPage() {
           <div className="mt-6 text-sm text-white/80">
             <p>100% gratuit • Dossier anonyme • Aucun engagement</p>
           </div>
->>>>>>> 8a578e6 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
+>>>>>>> f4ec788 (feat: Wording refonte + Metadata SEO alignées (2025-01-12))
         </div>
       </div>
     </div>

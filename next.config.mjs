@@ -132,13 +132,12 @@ const nextConfig = {
       { source: '/services/demenagement-premium-Nantes', destination: '/services/demenagement-premium-nantes', permanent: true },
       { source: '/services/demenagement-economique-Nantes', destination: '/services/demenagement-economique-nantes', permanent: true },
       { source: '/services/demenagement-standard-Nantes', destination: '/services/demenagement-standard-nantes', permanent: true },
-
-      // PAGES LÉGALES : Trailing slash
-      { source: '/mentions-legales/', destination: '/mentions-legales', permanent: true },
-      { source: '/cgv/', destination: '/cgv', permanent: true },
-      { source: '/politique-confidentialite/', destination: '/politique-confidentialite', permanent: true },
-
       // ANCIENNES URLs
+
+      // REDIRECTIONS inventaire-ia → devis-gratuits (20/01/2026)
+      { source: '/inventaire-ia', destination: '/devis-gratuits/', permanent: true },
+      { source: '/inventaire-ia/', destination: '/devis-gratuits/', permanent: true },
+      { source: '/inventaire-ia/:path*', destination: '/devis-gratuits/:path*', permanent: true },
       { source: '/estimation-demenagement-nantes/', destination: '/estimation-rapide', permanent: true },
       { source: '/prix-demenagement-nantes/', destination: '/blog/prix-demenagement-nantes/prix-demenagement-nantes-guide', permanent: true },
       { source: '/devis-demenagement-nantes/', destination: '/estimation-rapide', permanent: true },

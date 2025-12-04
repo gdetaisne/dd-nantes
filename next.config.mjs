@@ -46,6 +46,10 @@ const nextConfig = {
   // Redirections 404 - Nettoyage indexation Nantes
   async redirects() {
     const existing = [
+      // VAGUE 1 – Migration homepage domaine → page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/nantes/', permanent: true },
+
+      // Redirections historiques
       // SATELLITES : Articles sans -nantes → avec -nantes
       { source: '/blog/satellites/demenagement-meuble-seul', destination: '/blog/satellites/demenagement-meuble-seul-nantes', permanent: true },
       { source: '/blog/satellites/demenagement-piano-etages-sans-ascenseur', destination: '/blog/satellites/demenagement-piano-etages-sans-ascenseur-nantes', permanent: true },

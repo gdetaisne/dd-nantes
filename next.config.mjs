@@ -49,6 +49,12 @@ const nextConfig = {
       // VAGUE 1 – Migration homepage domaine → page ville moverz.fr
       { source: '/', destination: 'https://moverz.fr/demenagement/nantes/', permanent: true },
 
+      // MIGRATION BLOG → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
+      // Nouvelle structure /blog/demenagement-nantes/{slug} → moverz.fr/blog/{slug}
+      { source: '/blog/demenagement-nantes/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
+
       // Redirections historiques
       // SATELLITES : Articles sans -nantes → avec -nantes
       { source: '/blog/satellites/demenagement-meuble-seul', destination: '/blog/satellites/demenagement-meuble-seul-nantes', permanent: true },

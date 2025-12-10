@@ -1,4 +1,4 @@
-import { getMoverzBlogRedirectsForHost } from './scripts/blog-moverz-redirects.mjs';
+import { getMoverzBlogRedirectsForHost } from '../../scripts/blog-moverz-redirects.mjs';
 
 const HOST = 'devis-demenageur-nantes.fr';
 
@@ -39,8 +39,12 @@ const nextConfig = {
   async redirects() {
     const existing = [
       // Homepage → Page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/nantes/', permanent: true },
       // Blog hub → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
       // Blog articles → moverz.fr
+      { source: '/blog/demenagement-nantes/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
       // Quartiers nantes (6 pages)
       { source: '/nantes/', destination: 'https://moverz.fr/nantes/', permanent: true },
       { source: '/nantes/beaulieu/', destination: 'https://moverz.fr/nantes/beaulieu/', permanent: true },
@@ -49,6 +53,7 @@ const nextConfig = {
       { source: '/nantes/ile-nantes/', destination: 'https://moverz.fr/nantes/ile-nantes/', permanent: true },
       { source: '/nantes/malakoff/', destination: 'https://moverz.fr/nantes/malakoff/', permanent: true },
       // Hub quartiers nantes
+      { source: '/quartiers-nantes/', destination: 'https://moverz.fr/quartiers-nantes/', permanent: true },
       // Corridors depuis nantes (5 pages)
       { source: '/nantes-vers-espagne/', destination: 'https://moverz.fr/nantes-vers-espagne/', permanent: true },
       { source: '/nantes-vers-lyon/', destination: 'https://moverz.fr/nantes-vers-lyon/', permanent: true },
